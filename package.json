@@ -1,0 +1,21 @@
+{
+  "name": "legacy-bot",
+  "version": "2.0.0",
+  "description": "Professional Discord Bot for Legacy State Roleplay",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.6.1",
+    "mysql2": "^3.6.5",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
